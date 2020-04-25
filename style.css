@@ -91,3 +91,27 @@ h1 {
     opacity: .5;
     text-decoration: line-through;
 }
+
+@media only screen and (max-width: 560px) {
+    .list-container {
+        background-color: #F9F7E8;
+        width: 300px;
+        padding: 20px;
+        margin: 50px;
+        border-radius: 5px;
+    }
+
+    .user-input {
+        width: 200px;
+        font-size: 1.5rem;
+        border: none;
+        background-color: #F9F7E8;
+        border-bottom: solid black 1px;
+    }
+
+    .add-item-container {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+    }
+}
